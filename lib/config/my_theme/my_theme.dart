@@ -30,6 +30,16 @@ class myTheme {
         fontSize: 19,
         fontWeight: FontWeight.w400,
       ),
+      bodyMedium: TextStyle(
+          color: Colors.white, fontWeight: FontWeight.w400, fontSize: 19),
+    ),
+    cardTheme: CardTheme(
+      margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 8),
+      color: colorsManager.goldColor.withOpacity(0.8),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+      elevation: 14,
     ),
     dividerColor: colorsManager.goldColor,
   );
